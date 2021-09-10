@@ -1,0 +1,147 @@
+
+
+/* link-item-web */
+.link-item-web {
+    margin: 10px 20px ;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.link-item-web i {
+    color: var(--color-text-chim);
+    filter: brightness(150%);
+}
+
+.link-item-web-back {
+    color: blue;
+    padding: 0 8px;
+}
+
+.link-item-web-back:hover {
+    color: violet;
+}
+
+/* Login */
+.login {
+    margin-top: 20px;
+}
+
+.login__header {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 800;
+}
+
+.login__header::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: violet;
+    margin-top: 5px;
+}
+
+
+.login__wrapper-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__wrapper-item-header {
+    font-size: 2rem;
+    margin: 20px 0 10px 0;
+}
+
+.login__wrapper-item-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 34px;
+    padding: 15px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login__wrapper-item-input:focus {
+    border: 1px solid blue;
+}
+
+/* Login action */
+.login__action {
+    width: 100%;
+}
+
+.login__action-help {
+    width: 100%;
+    display: block;
+    text-align: right;
+    padding: 15px 5px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    
+}
+
+.login__action-forget-pass {
+    color: blue;
+    margin-right: 10px;
+}
+
+
+.login__action-new-register:hover,
+.login__action-forget-pass:hover {
+    color: violet;
+    text-decoration: underline;
+}
+
+.login__action-new-register {
+    color: blue;
+    
+}
+
+.btn {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+
+.btn-login {
+    background-color: rgb(253,216,53);
+}
+
+.btn-facebook {
+    background-color: rgb(59,89,152);
+    color: white;
+}
+
+.btn-facebook i {
+    color: white;
+    margin-right: 20px;
+}
+
+.btn-google {
+    background-color: rgb(221,75,57);
+    margin-bottom: 50px;
+    color: white;
+}
+
+.btn-google i {
+    color: white;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    filter: brightness(110%);
+}
+
+/* Register */
+.login__notification {
+    font-size: 1.6rem;
+    margin: 30px 0;
+}
