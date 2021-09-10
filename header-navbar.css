@@ -50,15 +50,66 @@
 }
 
 /* Thông báo */
+.notification{
+    position: relative;
+}
+
 .header__navbar-notification{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .header__navbar-icon-comment {
     padding-right: 4px;
     font-size: 2rem;
 }
+
+.header__navbar-notification-link {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.notification__appear {
+    z-index: 10000000;
+    width: 350px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 175%;
+    right: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.notification__appear-header {
+    display: block;
+    width: 100% ;
+    color: var(--color-text-title);
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.notification__appear-header:hover {
+    color: violet;
+    text-decoration: underline;
+}
+
+.notification__appear-content {
+    overflow-y: scroll;
+    display: block;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.notification-input-check:checked ~ .notification__appear {
+    display: block;
+}
+
 
 /* User */
 .header__navbar-user {

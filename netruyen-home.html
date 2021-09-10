@@ -34,13 +34,27 @@
                             </div>
                         </li>
 
-                        <li class="header__navbar-item hide-on-mobile">
-                            <a href="" class="header__navbar-link">
-                                <div class="header__navbar-notification">
-                                    <i class="header__navbar-icon-comment fas fa-comment    "></i>
-                                    <span class="hide-on-tablet" >Thông báo</span>
+                        <li class="header__navbar-item notification hide-on-mobile">
+
+                            
+                            
+                            <label for="notification-checked" class="header__navbar-notification">
+                                <i class="header__navbar-icon-comment fas fa-comment    "></i>
+                                <span class="hide-on-tablet" >Thông báo</span>
+                            </label>
+                            
+                            <input type="checkbox" hidden class="notification-input-check" id="notification-checked">
+
+                            <div class="notification__appear">
+                                <a href="" class="notification__appear-header">
+                                    Thông báo
+                                </a> 
+                                <div class="notification__appear-content">
+                                    <span class="notification__appear-content-notLogin">
+                                        Vui lòng đăng nhập để sử dụng chức năng này
+                                    </span>
                                 </div>
-                            </a>
+                            </div>
                         </li>
 
                         <li class="header__navbar-item hide-on-mobile">
