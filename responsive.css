@@ -1,5 +1,5 @@
 /* Mobile and tablet */
-@media (max-width: 1023px) { 
+@media (max-width: 1366px) { 
     .hide-on-mobile-tablet {
         display: none;
     }
@@ -26,7 +26,7 @@
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1366px) {
     .hide-on-tablet {
         display: none;
     }
@@ -56,6 +56,10 @@
 
     .header__navbar-main-rank-list {
         left: -80%;
+    }
+    .page__comic-body-img {
+        width: 80%;
+        object-fit: cover;
     }
 
 }
@@ -90,6 +94,11 @@
         margin: 0 8px;
     }
 
+    .page__comic-body-img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
 }
 
 
