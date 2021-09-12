@@ -2,7 +2,7 @@
 
 /* link-item-web */
 .link-item-web {
-    margin: 10px 20px ;
+    margin: 15px 20px ;
     font-size: 1.4rem;
     display: flex;
     align-items: center;
@@ -15,11 +15,12 @@
 
 .link-item-web-back {
     color: blue;
-    padding: 0 8px;
+    padding: 0 10px;
 }
 
 .link-item-web-back:hover {
     color: violet;
+    text-decoration: underline;
 }
 
 /* Login */

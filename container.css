@@ -103,13 +103,13 @@
     display: block;
     margin-bottom: 10px;
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
     font-weight:800;
     overflow: hidden;
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     
 }
 
@@ -384,6 +384,7 @@
 .key-word {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 10px;
 }
 
