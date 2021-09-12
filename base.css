@@ -87,3 +87,10 @@ strong {
 .padding-bottom-long {
     padding-bottom: 180px;
 }
+
+.no-select {
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none; 
+}
