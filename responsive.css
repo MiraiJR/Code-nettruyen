@@ -58,6 +58,9 @@
         left: -80%;
     }
     .page__comic-body-img {
+        padding-top: 20px;
+        display: block;
+        margin: auto;
         width: 80%;
         object-fit: cover;
     }

@@ -87,6 +87,11 @@
     margin-left: 10px;
 }
 
+.followed {
+    background-color: #ccc;
+    color: black;
+}
+
 .body-following-action:hover {
     filter: brightness(80%);
 }
