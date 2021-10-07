@@ -147,3 +147,88 @@
     font-size: 1.6rem;
     margin: 30px 0;
 }
+
+/* fail login */
+.fail-login {
+    color: red;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 0 , 0, 0.5);
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px 0;
+    background-color: rgba(255, 0 , 0, 0.1);
+    display: none;
+}
+
+.header__navbar-user-logged {
+    display: flex;
+    align-items: center;
+    display: none;
+    color: white;
+}
+
+.login-avatar {
+    --size-avatar: 25px;
+    height: var(--size-avatar);
+    width: var(--size-avatar);
+    border-radius: 50%;
+}
+
+.login-name {
+    margin-left: 5px;
+    font-size: 1.6rem;
+}
+/* Account menu */
+.account {
+    position: relative;
+}
+
+.account:hover .account-menu{
+    display: flex;
+}
+
+.account-menu {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    min-width: 200px;
+    background-color: rgb(249,249,249);
+    color: black;
+    z-index: 1;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.4);
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.account-menu::before {
+
+}
+
+.account-view-profile,
+.account-view-following-comic,
+.account-view-history,
+.account-log-out {
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+
+.account-log-out {
+    border: none;
+}
+
+.account-view-profile:hover ,
+.account-view-following-comic:hover ,
+.account-view-history:hover ,
+.account-log-out:hover {
+    color: violet;
+    background-color: rgb(228,228,228);
+}

@@ -74,6 +74,29 @@
                                 </a>
 
                             </div>
+                            <div href="" class="account">
+                                <div href="" class="header__navbar-user-logged">
+                                    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/233690920_1316391715486082_8985361292844610386_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=eZKJ2bMnwQsAX-8NSs5&_nc_ht=scontent.fdad2-1.fna&oh=62612d22e736a8ae9a577333467b9167&oe=6182620C" alt="" class="login-avatar">
+                                    <span class="login-name">
+                                        Hào
+                                    </span>
+                                </div>
+                                <div class="account-menu">
+                                    <a href="" class="account-view-profile">
+                                        Xem hồ sơ
+                                    </a>
+                                    <a href="" class="account-view-following-comic">
+                                        truyện theo dõi
+                                    </a>
+                                    <a href="" class="account-view-history">
+                                        lịch sử
+                                    </a>
+                                    <a href="" class="account-log-out">
+                                        Đăng xuất
+                                    </a>
+                                </div>
+                            </div>
+                            
                         </li>
 
                         <li class="header__navbar-item">
@@ -576,10 +599,12 @@
                                         Đăng ký mới
                                     </a>
                                 </div>
-                                <button class="btn btn-login">
+                                <button onclick="loginAccount()" class="btn btn-login">
                                     Đăng nhập
-
                                 </button>
+                            </div>
+                            <div class="fail-login">
+                                Đăng nhập thất bại. Vui lòng thử lại.
                             </div>
                             <button class="btn btn-facebook">
                                 <i class="fab fa-facebook-f"></i>
@@ -647,5 +672,6 @@
             </div>
         </div>
     </div>
+    <script src="js.js"></script>
 </body>
 </html>
